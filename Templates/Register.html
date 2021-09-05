@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="/Register/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1> Register Here! </h1> <br>
+		<fieldset background:red>
+			<form action="/Register/" method="POST">
+				<div class="myForm">
+					<label>
+						<h3> First Name </h3>
+					</label> </div>
+
+				<div class="myForm">
+					<input type="text" name="fname" placeholder="Enter First name" required> <br> </div>
+
+				<div class="myForm">
+					<label>
+						<h3> Last Name </h3>
+					</label>
+					<input type="text" name="lname" placeholder="Enter Last Name" required> <br> </div>
+
+				<div class="myForm">
+					<label>
+						<h3> Email </h3>
+					</label>
+					<input type="email" name="email" placeholder="Enter your email id" required> <br> </div>
+
+				<div class="myForm">
+					<label>
+						<h3> Password
+					</label> </h3>
+					<input type="text" name="password" placeholder="Enter your password" required> <br> </div>
+
+
+				<label>
+					<h3> Area of expertise </h3>
+				</label>
+				<select name="AreaOfExpertise">
+					<option value="Creativity and Aesthetics"> Creativity and Aesthetics </option>
+					<option value="Technology and Realization"> Technology and Realization </option>
+					<option value="User and Society"> User and Society </option>
+					<option value="Business and Entrepreneurship"> Business and Entrepreneurship </option>
+					<option value="Math, Data and Computing"> Math, Data and Computing </option>
+					<option value="Soft Skills"> Soft Skills </option>
+					<option value="Management"> Management </option>
+				</select>
+
+
+				<div class="myForm">
+					<label>
+						<h3> Upload Your Resume </h3>
+					</label>
+					<input type="text" name="resume" placeholder="Enter google drive link" required /> </div><br><br> <br>
+
+
+				<div class="TandC">
+					<input type="checkbox" required>
+					<label> Check the box if you accept the Terms and Conditions.</label> <br> <br></div>
+				<input type="submit" class="btn">
+	</div>
+	</label> </form>
+	</fieldset>
+</body>
+
+</html>
